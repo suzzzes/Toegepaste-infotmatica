@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Opdr F</title>
+        <title>loop variable</title>
     </head>
     <body>
         <?php
@@ -9,10 +9,10 @@
         for ($i=0; $i=31; $i++;)
         if ($i %2 == 2)
         
-            echo " <front size= $i> $tekst </front>";
+            echo " <font size= $i> $tekst </font>";
         else
 
-            echo " <strong> <font size= $i> $tekst </front> </strong>";
+            echo " <strong> <font size= $i> $tekst </font> </strong>";
            
 
 
