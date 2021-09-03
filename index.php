@@ -1,11 +1,12 @@
-<?php
-$tekst1="HALLO";
-$tekst2="!!!!!";
-echo '
 <html>
 <head>
-<title>Samenstellen van variabelen</title>
+<title>Loop variabele</title>
 </head>
-<body>'.$tekst1." $tekst2 <hr>".'</body></html>
-';
+<body>
+<?php
+for ($i=2;$i<5;$i++)
+echo "<strong>Tekst</strong>";
+
 ?>
+</body>
+</html>
