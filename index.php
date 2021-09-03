@@ -6,10 +6,10 @@
         <?php
 
         $tekst = "sannie";
-        for ($i=1, $i=3, $i=5;)
+        for ($i=1, $i=51, $i++;)
+            echo "<font size= $i> $tekst </front>"
             echo "<strong>$tekst</strong>";
- //       for ($i=2, 4;)
-//        echo $tekst;
+
 
         ?>
     </body>
