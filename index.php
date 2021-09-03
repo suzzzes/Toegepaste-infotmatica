@@ -6,9 +6,14 @@
         <?php
 
         $tekst = "sannie";
-        for ($i=1, $i=51, $i++;)
-            echo "<font size= $i> $tekst </front>";
-           // echo "<strong>$tekst</strong>";
+        for ($i=0; $i=31; $i++;)
+        if ($i %2 == 2)
+        
+            echo " <font size= $i> $tekst </front>";
+        else
+
+            echo " <stong> <font size= $i> $tekst </front> </strong>";
+           
 
 
         ?>
