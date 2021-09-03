@@ -6,7 +6,7 @@
         <?php
 
         $tekst = "sannie";
-        for ($i=0; $i<31; $i++;)
+        for ($i=0; $i<8; $i++)
         if ($i %2 == 0)
         
             echo " <font size= $i> $tekst </font>";
@@ -14,8 +14,6 @@
 
             echo " <strong> <font size= $i> $tekst </font> </strong>";
            
-
-
         ?>
     </body>
 </html>
