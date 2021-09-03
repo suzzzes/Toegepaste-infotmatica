@@ -7,7 +7,7 @@
 
         $tekst = "sannie";
         for ($i=0; $i<31; $i++;)
-        if ($i %2 == 2)
+        if ($i %2 == 0)
         
             echo " <font size= $i> $tekst </font>";
         else
