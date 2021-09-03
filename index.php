@@ -5,7 +5,7 @@
 <body>
 <?php
 for ($i=2;$i<5;$i++)
-echo "<strong>Tekst</strong>";
+echo "<bold>Tekst</bold>";
 
 ?>
 </body>
