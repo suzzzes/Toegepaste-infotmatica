@@ -9,10 +9,10 @@
         for ($i=0; $i=31; $i++;)
         if ($i %2 == 2)
         
-            echo " <font size= $i> $tekst </front>";
+            echo " <front size= $i> $tekst </front>";
         else
 
-            echo " <stong> <font size= $i> $tekst </front> </strong>";
+            echo " <strong> <font size= $i> $tekst </front> </strong>";
            
 
 
