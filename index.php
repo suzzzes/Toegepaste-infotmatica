@@ -5,7 +5,7 @@
     <body>
         <?php
 
-        $tekst = "sannie";
+        $tekst = "Sannie";
         for ($i=0; $i<8; $i++)
         if ($i %2 == 0)
         
