@@ -4,8 +4,11 @@
 </head>
 <body>
 <?php
-for ($i=2;$i<5;$i++)
-echo "<bold>Tekst</bold>";
+$tekst = "sannie";
+for ($i=1, 3, 5;)
+echo "<strong>$tekst</strong>";
+for ($i=2, 4;)
+echo $tekst
 
 ?>
 </body>
