@@ -5,10 +5,10 @@
   <body>
   <?php
 
-    setlocale(LC_ALL, 'nl_NL' );
+    setlocale(LC_ALL, 'nl_NL' ); //zet de data in het nederlands
     
     echo "Het is vandaag:";
-    echo date('M d, Y');
+    echo strftime('M d, Y');
     echo date('H:i:s');
   ?>
   </body>
