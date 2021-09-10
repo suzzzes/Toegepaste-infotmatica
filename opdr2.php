@@ -1,17 +1,15 @@
 <html>
   <head>
-    <title>Control Structures</title>
+    <meta http-equiv="refresh" content="30" />
   </head>
   <body>
   <?php
-    for ($a=0;$a<10;$a++){
-      echo "A heeft nu de waarde ".$a;
-      
-      if ($a==4) 
-        echo "<hr>";
-      else
-        echo "<br>";
-    }
+
+    setlocale(LC_ALL, 'nl_NL' );
+    
+    echo "Het is vandaag:";
+    echo date('M d, Y');
+    echo date('H:i:s');
   ?>
   </body>
 </html>
