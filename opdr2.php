@@ -9,7 +9,7 @@
     
     echo "Het is vandaag: <br>";
     echo strftime("%A %e %B %Y <br>");
-    echo "De tijd is"
+    echo "De tijd is";
     echo date('H:i');
   ?>
   </body>
