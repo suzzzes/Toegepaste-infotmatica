@@ -2,7 +2,7 @@
 if (array_key_exists('tekst',$_REQUEST))
 	$tekst=$_REQUEST['tekst'];
 else
-	$tekst="Zend";
+	$tekst="";
 ?>
 <html>
 <head>
