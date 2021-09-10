@@ -8,7 +8,7 @@
         <h1> Sannes informatica opdrachten </h1><hr>
         <a href = "/opdr1.php"> Opdracht 1 </a><BR>
         <a href = "/opdr2.php"> opdracht 2 </a><BR> 
-        <a href = "/opdr3.php"> opdracht 3 </a><BR> 
+        <a href = "/opdr3a.php"> opdracht 3 </a><BR> 
 
            
         
