@@ -8,7 +8,7 @@
     setlocale(LC_ALL, 'nl_NL' ); //zet de data in het nederlands
     
     echo "Het is vandaag:";
-    echo strftime("%d %b | %a");
+    echo strftime("%A %e %B %Y <br>");
     echo date('H:i:s');
   ?>
   </body>
