@@ -1,19 +1,15 @@
 <html>
     <head>
-        <title>loop variable</title>
+        <title>Sannes informatica opdrachten</title>
     </head>
     <body>
-        <?php
+    
 
-        $tekst = "Sannie";
-        for ($i=0; $i<8; $i++)
-        if ($i %2 == 0)
+        <H1> Sannes informatica opdrachten </H1><hr>
+        <a href = "/opdr1.php"> Opdracht 1 </a><BR>
         
-            echo " <font size= $i> $tekst </font>";
-        else
 
-            echo " <strong> <font size= $i> $tekst </font> </strong>";
            
-        ?>
+        
     </body>
 </html>
