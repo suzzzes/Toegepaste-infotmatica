@@ -5,9 +5,9 @@
     <body>
     
 
-        <H1> Sannes informatica opdrachten </H1><hr>
+        <h1> Sannes informatica opdrachten </h1><hr>
         <a href = "/opdr1.php"> Opdracht 1 </a><BR>
-        
+
 
            
         
