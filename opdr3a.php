@@ -3,6 +3,8 @@ if (array_key_exists('tekst',$_REQUEST))
 	$tekst=$_REQUEST['tekst'];
 else
 	$tekst="";
+    preg_replace('/[0-9]/', '', $tekst);
+
 ?>
 <html>
 <head>
