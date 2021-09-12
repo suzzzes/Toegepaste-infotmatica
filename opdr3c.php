@@ -1,7 +1,7 @@
 <?php
 $y = $x  = "";
 
-  if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if ($_SERVER["REQUEST_METHOD"] == "POST") {   // kijken of er tekst staat in de variable
   if (empty($_POST["y"])) 
     echo "Vul Y in";
    else 
@@ -14,16 +14,16 @@ $y = $x  = "";
    else 
     $x = test_input($_POST["x"]);
     
-  if ($x == $y)
+  if ($x == $y)                             // x en y vergelijken of ze gelijk aan elkaar zijn
     echo "Even groot";
   else if($y <= $x)
-    echo "x is groter";
+    echo "x is groter";                     // kijken of x groter is
   else if($x <= $y)
-    echo "y is groter";
+    echo "y is groter";                     // kijken of y groter is
   else
     echo "error";   
 }
-function test_input($data) {
+function test_input($data) {                // functie om te kijken of er data is
   $data = trim($data);
   $data = stripslashes($data);
   $data = htmlspecialchars($data);
