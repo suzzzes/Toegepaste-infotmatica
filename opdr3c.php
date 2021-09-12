@@ -3,25 +3,25 @@ $y = $x  = "";
 
   if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["y"])) 
-    echo "Y is required";
+    echo "Vul Y in";
    else 
     $y = test_input($_POST["y"]);
     
   
   
   if (empty($_POST["x"])) 
-    echo "X is required";
+    echo "Vul X in";
    else 
     $x = test_input($_POST["x"]);
     
   if ($x == $y)
     echo "Even groot";
   else if($y <= $x)
-    echo "x is Groter";
+    echo "x is groter";
   else if($x <= $y)
     echo "y is groter";
   else
-    echo "Could not compile";   
+    echo "error";   
 }
 function test_input($data) {
   $data = trim($data);
