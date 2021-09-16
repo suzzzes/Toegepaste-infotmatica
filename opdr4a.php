@@ -7,10 +7,10 @@
 <?php
 #!/bin/bash
 
-for letter in {a..z}
-do
-    touch "$letter"".php"
-done
+$letters = range("A","Z");
+foreach( $letters as $letter ) {
+    echo $letter . "<br />";
+}
 
 echo "De tekst is :".$letter."<br>";
 echo "De lengte van de tekst ".$letter." is :".strlen($letter)." karakters.<br>";
