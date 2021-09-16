@@ -9,6 +9,7 @@
 
 $letters = range("A","Z");
 foreach( $letters as $letter ) {
+    echo $letter;
 }
 
 echo "De tekst is :".$letter."<br>";
