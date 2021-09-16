@@ -3,14 +3,14 @@
 <title>Strings</title>
 </head>
 <body bgcolor="#FFFFFF">
+
+<?php
+#!/bin/bash
+
 for letter in {a..z}
 do
     touch "$letter"".php"
 done
-<?php
-#!/bin/bash
-
-
 
 echo "De tekst is :".$letter."<br>";
 echo "De lengte van de tekst ".$letter." is :".strlen($letter)." karakters.<br>";
