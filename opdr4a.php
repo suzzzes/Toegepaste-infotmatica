@@ -5,12 +5,16 @@
 <body bgcolor="#FFFFFF">
 
 <?php
-#!/bin/bash
 
-$letters = range("A","Z");
-foreach( $letters as $letter ) {
-    echo $letter;
+// generate array with the characters from the alphabet 
+// A to Z
+$alphabet = range("a", "z");
+        
+// Iterate over every character and create a directory with the name of the current character
+foreach($alphabet as $character){
+    mkdir("./" . $character);
 }
+
 
 echo "De tekst is :".$letter."<br>";
 echo "De lengte van de tekst ".$letter." is :".strlen($letter)." karakters.<br>";
