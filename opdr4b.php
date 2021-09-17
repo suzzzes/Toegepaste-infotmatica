@@ -33,7 +33,20 @@ if (strlen($tekst)>0){
 if ($tekst=="") $tekst="123,456,789.abc,def,ghi";
 if ($sep1=="") $sep1=",";
 if ($sep2=="") $sep2=".";
-?>
+
+if (!isset($tekst)) $tekst=$_POST['tekst'];
+if (strlen($tekst)>0){
+  echo "<table border=3><tr>"."\n";
+  $tabel3= explode ($sep2,$tekst);
+  for ($y=0;$y<count($tabel3);$y++){
+    $tabel4=explode($sep1,$tabel4[$y]);
+      for ($x=0;$x<count($tabel4);$x++)
+          echo "<td>".$tabel4[$x]."</td>";
+      echo "</tr><tr>";
+     }
+     echo "</table>";
+}
+
 
 <form method="post" >
 <p><input type="text" size="50" name="tekst" value="<?php echo $tekst; ?>"><br>
