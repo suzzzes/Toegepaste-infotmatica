@@ -10,7 +10,20 @@ else
 if (array_key_exists('tekst',$_REQUEST))
 	$tekst=$_REQUEST['tekst'];
 else
-	$tekst="";
+	$tekst1="";
+
+if (array_key_exists('sep1',$_REQUEST))
+	$sep1=$_REQUEST['sep1'];
+else
+	$sep1=",";
+if (array_key_exists('sep2',$_REQUEST))
+	$sep2=$_REQUEST['sep2'];
+else
+	$sep2=".";
+if (array_key_exists('tekst',$_REQUEST))
+	$tekst1=$_REQUEST['tekst'];
+else
+	$tekst1="";
 ?>
 <html>
 <head>
