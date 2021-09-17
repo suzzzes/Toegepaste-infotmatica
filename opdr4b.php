@@ -34,10 +34,10 @@ if ($tekst=="") $tekst="123,456,789.abc,def,ghi";
 if ($sep1=="") $sep1=",";
 if ($sep2=="") $sep2=".";
 
-if (!isset($tekst)) $tekst=$_POST['tekst'];
-if (strlen($tekst)>0){
+if (!isset($tekst1)) $tekst1=$_POST['tekst'];
+if (strlen($tekst1)>0){
   echo "<table border=3><tr>"."\n";
-  $tabel3= explode ($sep2,$tekst);
+  $tabel3= explode ($sep2,$tekst1);
   for ($y=0;$y<count($tabel3);$y++){
     $tabel4=explode($sep1,$tabel4[$y]);
       for ($x=0;$x<count($tabel4);$x++)
@@ -46,7 +46,7 @@ if (strlen($tekst)>0){
      }
      echo "</table>";
 }
-if ($tekst=="") $tekst="123,456,789.abc,def,ghi";
+if ($tekst1=="") $tekst1="abc,def,789.abc,123,456";
 if ($sep1=="") $sep1=",";
 if ($sep2=="") $sep2=".";
 ?>
