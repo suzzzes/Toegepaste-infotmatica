@@ -7,23 +7,16 @@ if (array_key_exists('sep2',$_REQUEST))
 	$sep2=$_REQUEST['sep2'];
 else
 	$sep2=".";
+if (array_key_exists('sep3', $_REQUEST))
+    $sep3=$_REQUEST['sep3';];
+else
+    $sep3=":";
 if (array_key_exists('tekst',$_REQUEST))
 	$tekst=$_REQUEST['tekst'];
 else
-	$tekst1="";
+	$tekst="";
 
-if (array_key_exists('sep3',$_REQUEST))
-	$sep3=$_REQUEST['sep3'];
-else
-	$sep3=",";
-if (array_key_exists('sep4',$_REQUEST))
-	$sep4=$_REQUEST['sep4'];
-else
-	$sep4=".";
-if (array_key_exists('tekst1',$_REQUEST))
-	$tekst1=$_REQUEST['tekst1'];
-else
-	$tekst1="";
+
 ?>
 <html>
 <head>
