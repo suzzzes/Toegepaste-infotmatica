@@ -46,7 +46,10 @@ if (strlen($tekst)>0){
      }
      echo "</table>";
 }
-
+if ($tekst=="") $tekst="123,456,789.abc,def,ghi";
+if ($sep1=="") $sep1=",";
+if ($sep2=="") $sep2=".";
+?>
 
 <form method="post" >
 <p><input type="text" size="50" name="tekst" value="<?php echo $tekst; ?>"><br>
