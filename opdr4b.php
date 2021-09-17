@@ -46,6 +46,7 @@ if (strlen($tekst)>0){
 if ($tekst=="") $tekst="123,456,789.abc,def,ghi";
 if ($sep1=="") $sep1=",";
 if ($sep2=="") $sep2=".";
+if ($sep3="") $sep3=":";
 
 if (!isset($tekst1)) $tekst1=$_POST['tekst1'];
 if (strlen($tekst1)>0){
