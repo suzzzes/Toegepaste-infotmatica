@@ -69,6 +69,7 @@ if ($sep2=="") $sep2=".";
 <p><input type="text" size="50" name="tekst" value="<?php echo $tekst; ?>"><br>
 <input type="text" size="1" name="sep1" value="<?php echo $sep1; ?>"><br>
 <input type="text" size="1" name="sep2" value="<?php echo $sep2; ?>"><br>
+<input type="text" size="1" name="sep3" value="<?php echo $sep3; ?>"><br>
 <input type="text" size="50" name="tekst" value="<?php echo $tekst1; ?>"><br>
 <input type="submit" name="start" value="zend"></p>
 </form>
