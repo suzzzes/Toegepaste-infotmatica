@@ -30,12 +30,12 @@ else
         if (!isset($tekst)) $tekst=$_POST['tekst'];
             if (strlen($tekst)>0){                              //Als de string $tekst langer is dan 0
             
-            $tabelx = explode ($sep3,$tekst);                   //Hele string door tweeën gehakt, opslaan in tabelx    
+            $tabelx = explode ($sep3,$tekst);                   //wanneer dubbele punt tweede tabel    
             for ($t=0;$t<count($tabelx);$t++){
                 
                 echo "<table border=3><tr>"."<br>";             
 
-                $tabel1 = explode ($sep2,$tabelx[$t]);           //Explode is splitsen in array
+                $tabel1 = explode ($sep2,$tabelx[$t]);           //Explode de array splitzen
                 for ($y=0;$y<count($tabel1);$y++){
                     
                     $tabel2 = explode($sep1,$tabel1[$y]);
@@ -48,7 +48,7 @@ else
                 }
                 
 
-        if ($tekst=="") $tekst="123,456,789.abc,def,ghi";
+        if ($tekst=="") $tekst="123,456,789.abc,def,ghi:123,456,789.abc,def,ghi";
         if ($sep1=="") $sep1=",";
         if ($sep2=="") $sep2=".";
         if ($sep3=="") $sep2=":";
