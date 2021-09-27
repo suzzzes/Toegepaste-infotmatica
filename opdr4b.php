@@ -22,7 +22,7 @@ else
 
 <html>
     <head>
-        <title>arrays</title>
+        <title>Arrays</title>
     </head>
 
     <body bgcolor="#FFFFFF"> 
