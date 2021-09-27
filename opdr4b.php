@@ -30,7 +30,7 @@ else
         if (!isset($tekst)) $tekst=$_POST['tekst'];
             if (strlen($tekst)>0){                              //Als de string $tekst langer is dan 0
             
-            $tabelx = explode ($sep3,$tekst);                   //wanneer dubbele punt tweede tabel    
+            $tabelx = explode ($sep3,$tekst);                   //wanneer dubbele punt, start tweede tabel    
             for ($t=0;$t<count($tabelx);$t++){
                 
                 echo "<table border=3><tr>"."<br>";             
@@ -51,7 +51,7 @@ else
         if ($tekst=="") $tekst="123,456,789.abc,def,ghi:123,456,789.abc,def,ghi";
         if ($sep1=="") $sep1=",";
         if ($sep2=="") $sep2=".";
-        if ($sep3=="") $sep2=":";
+        if ($sep3=="") $sep3=":";
         ?>
 
         <form method="post" >
