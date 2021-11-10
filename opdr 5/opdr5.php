@@ -5,6 +5,7 @@
 
   <body>
     <?php
+      function int_2_gif($c){
         settype($c,"integer");
         settype($c,"string");
 
