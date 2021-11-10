@@ -1,6 +1,6 @@
 <html>
   <head>
-    <meta http-equiv="refresh" content="30" /> <!--elke 30 sec verversen. -->
+    <meta http-equiv="refresh" content="1" /> <!--elke 1 sec verversen. -->
   </head>
 
   <body>
