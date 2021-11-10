@@ -1,5 +1,5 @@
 <?php
-  if (array_key_exists('email',$_REQUEST) & array_key_exists('internet',$_REQUEST))    {        //Deze functie haalt de gegevens uit de tekstboxen
+  if (array_key_exists('email',$_REQUEST) & array_key_exists('internet',$_REQUEST))  {    //Deze functie haalt de gegevens uit de tekstboxen
 	$email=$_REQUEST['email'];
     $internet=$_REQUEST['internet'];
 
@@ -9,10 +9,7 @@
     else{
         echo "Niet geldige email <br>";
     }
-    
-    //if (array_key_exists('internet',$_REQUEST))         //Deze functie haalt de gegevens uit de tekstbox
-    //    $internet=$_REQUEST['internet'];
-    
+       
     if (filter_var($internet, FILTER_VALIDATE_URL)) {   //Deze functie controleert of de url wel geldig is
         echo "Geldige URL <br>";
     }
