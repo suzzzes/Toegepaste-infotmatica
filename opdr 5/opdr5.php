@@ -24,14 +24,14 @@
       $today = getdate();
 
       //De datum printen
-      echo "Het is vandaag: </br>";     //Print alleen tekst
+      echo "Vandag is het: </br>";     //Print alleen tekst
       echo strftime("%A");              //Print de dag van de week
         int_2_gif($today["mday"]);      //Converteer dag in cijfers
       echo strftime( "%B");              //Print de maand
         int_2_gif($today["year"]);      //Converteer jaar in cijfers
 
       //De tijd printen 
-      echo "</br>De tijd is:</br>";     //Print alleen tekst
+      echo "</br> en de tijd is:</br>";     //Print alleen tekst
         int_2_gif($today["hours"]);     //Converteer het uur
       echo ":";                         //Print :
         int_2_gif($today["minutes"]);   //Converteer minuten
