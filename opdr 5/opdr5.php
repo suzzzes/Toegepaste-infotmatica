@@ -25,7 +25,7 @@
 
       //De datum printen
       echo "Het is vandaag: </br>";     //Print alleen tekst
-      echo strftime("%A");              //Print de dag van de week
+      echo strftime("%A </br>");              //Print de dag van de week
         int_2_gif($today["mday"]);      //Converteer dag in cijfers
       echo strftime("%B");              //Print de maand
         int_2_gif($today["year"]);      //Converteer jaar in cijfers
