@@ -9,7 +9,7 @@ else
 	$adres0="";
 
 $gev = 0;
-$fd = fopen("DATA/namen.txt","r");
+$fd = fopen("opdr6/namen.txt","r");
 while (!feof($fd) && $gev == 0) {
 	$buffer = trim(fgets($fd, 4096));
 	$namen = explode(",", $buffer);
@@ -24,7 +24,7 @@ fclose($fd);
 
 $gev2 = 0;
 if ($gev == 1) {
-	$fd2 = fopen("DATA/adressen.txt","r");
+	$fd2 = fopen("opdr6/adressen.txt","r");
 	while (!feof($fd2) && $gev2 == 0) {
 		$adrbuffer = trim(fgets($fd2, 4096));
 		$adressen = explode(",", $adrbuffer);
@@ -48,7 +48,7 @@ else {
 } 
 
 $blocked = false;
-$blockedips = file_get_contents("DATA/blocked.txt");
+$blockedips = file_get_contents("opdr6/blocked.txt");
 $ips = explode(";", $blockedips);
 for ($x = 0; $x < count($ips); $x++) {
 	if ($ip == $ips[$x]) {
@@ -57,10 +57,10 @@ for ($x = 0; $x < count($ips); $x++) {
 	}
 }
 
-$counter = file_get_contents("DATA/counter.txt");
+$counter = file_get_contents("opdr6/counter.txt");
 if (!$blocked) {
 	$counter++;
-	file_put_contents("DATA/counter.txt", $counter);
+	file_put_contents("opdr6/counter.txt", $counter);
 }
 
 function converteer($c){
@@ -96,6 +96,6 @@ function converteer($c){
 			}
 		}
 		?>
-	
+	</form>
     </body>
     </html>
