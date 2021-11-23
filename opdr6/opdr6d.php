@@ -96,6 +96,6 @@ function converteer($c){
 			}
 		}
 		?>
-		</form>
+	
     </body>
     </html>
