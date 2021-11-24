@@ -97,11 +97,6 @@ function converteer($c){
 		}
 		?>
 		</form>
-		<h1>Opdracht 6E</h1>
-		<?php
-		echo $ip."</br>";
-		
-		converteer($counter);
-		?>
+
 	</body>
 </html>
