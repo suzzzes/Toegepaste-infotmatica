@@ -47,7 +47,6 @@ if ($gev == 1) {
 		<title>Opdracht 6</title>
 	</head>
 	<body>
-		<a href="index.php">Ga terug</a></br>
 		<h1>Opdr 6d</h1>
 		<form method=post>
 		<input type=submit value=zend><br>
