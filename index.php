@@ -14,7 +14,7 @@
         <a href = "/opdr4b.php"> opdracht 4b </a><BR>  
         <a href = "/opdr4c.php"> opdracht 4c </a><BR>  
         <a href = "/opdr 5/opdr5.php"> opdracht 5 </a><BR> 
-        <a href = "/opdr 6/opdr6d.php"> opdracht 6d </a><BR>
+        <a href = "/opdr6/opdr6d.php"> opdracht 6d </a><BR>
         
     </body>
 </html>
