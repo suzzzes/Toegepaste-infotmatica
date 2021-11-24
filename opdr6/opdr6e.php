@@ -41,7 +41,11 @@ function converteer($c){
 		<form method=post>
 		<input type=submit value=zend><br>
 		<?php
-
+		echo '<input type=text name="naam0" value="'.$naam0.'"></br>';
+		if ($naam0 != "") {
+			echo "$naam0 is ";
+			if ($gev != 1) echo "niet ";
+			echo "in het bestand opgenomen</br>"; 
 			
 			if ($gev2 == 1) {
 				$info = explode(".", $adres0);
