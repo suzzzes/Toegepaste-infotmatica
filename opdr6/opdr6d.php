@@ -78,7 +78,7 @@ function converteer($c){
 	</head>
 	<body>
 		<a href="index.php">Ga terug</a></br>
-		<h1>Opdracht 6D</h1>
+		<h1>Opdr 6d</h1>
 		<form method=post>
 		<input type=submit value=zend><br>
 		<?php
@@ -97,6 +97,11 @@ function converteer($c){
 		}
 		?>
 		</form>
-
+		<h1>Opdracht 6E</h1>
+		<?php
+		echo $ip."</br>";
+		
+		converteer($counter);
+		?>
 	</body>
 </html>
