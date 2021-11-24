@@ -96,7 +96,7 @@ function converteer($c){
 		}
         echo $ip."</br>";
 		
-		converteer($counter
+		converteer($counter);
 		?>
 		</form>
 		
