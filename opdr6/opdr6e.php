@@ -68,7 +68,7 @@ function converteer($c){
 	settype($c,"string");
 
 	for ($x = 0; $x < strlen($c); $x++) {
-		echo '<img src="../gifjes/p'.$c[$x].'.gif">';
+		echo '<img src="gifjes/p'.$c[$x].'.gif">';
 	}
 }
 ?>
