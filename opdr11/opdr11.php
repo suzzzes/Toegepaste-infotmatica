@@ -1,13 +1,4 @@
-    <?php
-    $Lamp = "iets";
-
-	if ($_SERVER['REQUEST_METHOD'] == "POST") {
-		// actie
-	}
-
-
-    ?>
-	<html> 
+<html> 
 	<head> 
 		<title>Opdracht 11</title>
 	</head> 
@@ -19,7 +10,18 @@
 			google.charts.setOnLoadCallback (loadData); // wacht tot geladen is, voordat de data erin gezet wordt
         
 	<body>
+
+   <?php
+    $Lamp = "iets";
+
+	if ($_SERVER['REQUEST_METHOD'] == "POST") {
+		// actie
+	}
+
+
+    ?>
+
 	<form method= "post">
-        ipadres: <input type="submit" size="5" name="Lamp" value="<?php echo $Lamp;?> "> 
+        ipadres: <input type="submit" size="5" name="Lamp" value="<?php $Lamp;?> "> 
 	</body>
 	</html>
