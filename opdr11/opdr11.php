@@ -14,7 +14,7 @@
 
 		     // if(isset($_POST['Lamp'])) {
 			//	echo "This is Button1 that is selected";
-			}
+			
 
 		?>
 		  
