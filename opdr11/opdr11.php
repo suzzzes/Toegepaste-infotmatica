@@ -12,14 +12,13 @@
 		
 		<?php
 
-		      if(isset($_POST['Lamp'])) {
-				echo "This is Button1 that is selected";
+		     // if(isset($_POST['Lamp'])) {
+			//	echo "This is Button1 that is selected";
 			}
 
 		?>
 		  
 		<form method="post">
-			<input type="submit" name="Lamp" value="Lamp"/>
 			<label class="switch">
 			<input type= "checkbox">
 			<span class= "slider round"></span>
