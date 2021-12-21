@@ -13,6 +13,7 @@
 
 	<?php
 	echo "poep tot de max";
+	echo "Vul X in";
 		$Lamp = "iets";
 
 		if ($_SERVER['REQUEST_METHOD'] == "POST") {
