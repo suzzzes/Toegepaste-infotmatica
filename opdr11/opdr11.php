@@ -10,8 +10,8 @@
 
 
         <form method= "post">
-        ipadres: <input type="boolean" size="5" name="Lamp" value="<?php echo $Lamp;?> "> 
-        <input type="submit">
+        ipadres: <input type="submit" size="5" name="Lamp" value="<?php echo $Lamp;?> "> 
+        
 
 	</head> 
 	<body>
