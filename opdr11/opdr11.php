@@ -17,7 +17,7 @@
 	<body>
 
     <?php
-    $Lamp = "";
+    $Lamp = "iets";
 
 	if ($_SERVER['REQUEST_METHOD'] == "POST") {
 		// actie
