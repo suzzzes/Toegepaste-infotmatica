@@ -12,7 +12,7 @@
 		
 		<?php
 
-		      if(isset($_POST['button1'])) {
+		      if(isset($_POST['lamp'])) {
 				echo "This is Button1 that is selected";
 			}
 			if(isset($_POST['button2'])) {
@@ -21,13 +21,12 @@
 		?>
 		  
 		<form method="post">
-			<input type="submit" name="button1"
-					value="Button1"/>
+			<input type="submit" name="Lamp" value="lamp"/>
 			  
 			<input type="submit" name="button2"
 					value="Button2"/>
 		</form>
-		?>
+		
 
 	</body> 
 </html>
