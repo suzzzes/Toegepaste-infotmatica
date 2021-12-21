@@ -5,7 +5,7 @@
 		// actie
 	}
 
-	echo ( "test123");
+
     ?>
 	<html> 
 	<head> 
@@ -21,4 +21,5 @@
 	<body>
 	<form method= "post">
         ipadres: <input type="submit" size="5" name="Lamp" value="<?php echo $Lamp;?> "> 
+	</body>
 	</html>
