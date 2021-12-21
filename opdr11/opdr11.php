@@ -15,6 +15,8 @@
 
 	</head> 
 	<body>
+	<form method= "post">
+        ipadres: <input type="submit" size="5" name="Lamp" value="<?php echo $Lamp;?> "> 
 
     <?php
     $Lamp = "iets";
@@ -25,3 +27,4 @@
 
 
     ?>
+	</html>
