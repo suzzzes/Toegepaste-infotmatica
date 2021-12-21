@@ -11,17 +11,19 @@
         
 	<body>
 
-   <?php
-    $Lamp = "iets";
+	<?php
+		$Lamp = "iets";
 
-	if ($_SERVER['REQUEST_METHOD'] == "POST") {
-		// actie
-	}
+		if ($_SERVER['REQUEST_METHOD'] == "POST") {
+			// actie
+		}
 
 
-    ?>
+		?>
 
-	<form method= "post">
-        ipadres: <input type="submit" size="5" name="Lamp" value="iets "> 
-	</body>
+		<form method= "post">
+		<input type="submit" size="5" name="Lamp" value="iets"> 
+		</form>
+
+
 	</html>
