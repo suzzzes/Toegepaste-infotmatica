@@ -5,7 +5,7 @@
 		// actie
 	}
 
-
+	echo ( "test123");
     ?>
 	<html> 
 	<head> 
