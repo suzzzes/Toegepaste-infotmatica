@@ -16,6 +16,12 @@
         <a href = "/opdr 5/opdr5.php"> opdracht 5 </a><BR> 
         <a href = "/opdr6/opdr6d.php"> opdracht 6d </a><BR>
         <a href = "/opdr6/opdr6e.php"> opdracht 6e </a><BR>
+        <a href = "/opdr7/opdr7a.php"> opdracht 7a </a><BR>
+        <a href = "/opdr7/opdr7b.php"> opdracht 7b </a><BR>
+        <a href = "/opdr8/opdr8.php"> opdracht 8 </a><BR>
+        <a href = "/opdr9/opdr9.php"> opdracht 9 </a><BR>
+        <a href = "opdr10.php"> opdracht 10 </a><BR>
+        <a href = "/opdr11/opdr11.php"> opdracht 11 </a><BR>
         
     </body>
 </html>

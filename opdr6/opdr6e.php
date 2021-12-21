@@ -17,6 +17,11 @@ for ($x = 0; $x < count($ips); $x++) {
 	}
 }
 
+if (!empty($_POST['ipadres'])) {
+	$blockedips = $blockedips.';'.$_POST['ipadres'];
+	file_put_contents("DATA/blocked.txt", $blockedips);
+} 
+
 $counter = file_get_contents("DATA/counter.txt");
 if (!$blocked) {
 	$counter++;
@@ -31,21 +36,27 @@ function converteer($c){
 		echo '<img src="gifjes/p'.$c[$x].'.gif">';
 	}
 }
+
+
 ?>
 <html>
 	<head>
 		<title>Opdracht 6e</title>
 	</head>
 	<body>
-		<h1>Opdr6e/h1>
-		<form method=post>
-		<input type=submit value=zend><br>
-		<?php
-
-        echo $ip."</br>";
+		<h1>Opdr6e</h1>
+		<form method= "post">
+			ipadres: <input type="nummer" size="5" name="ipadres" value="<?php echo $ipadres;?> "> 
+			<input type="submit">
 		
-		converteer($counter);
-		?>
+
+			<?php
+
+			echo $ip."<br>";
+			
+			converteer($counter);
+			
+			?>
 		</form>
 		
 	</body>

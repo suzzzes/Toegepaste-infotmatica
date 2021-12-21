@@ -49,18 +49,18 @@ if ($gev == 1) {
 	<body>
 		<h1>Opdr 6d</h1>
 		<form method=post>
-		<input type=submit value=zend><br>
+		<input type=submit value=zend> <br>
 		<?php
-		echo '<input type=text name="naam0" value="'.$naam0.'"></br>';
+		echo '<input type=text name="naam0" value="'.$naam0.'"><br>';
 		if ($naam0 != "") {
 			echo "$naam0 is ";
 			if ($gev != 1) echo "niet ";
-			echo "in het bestand opgenomen</br>"; 
+			echo "in het bestand opgenomen<br>"; 
 			
 			if ($gev2 == 1) {
 				$info = explode(".", $adres0);
 				for ($z = 0; $z < count($info); $z++) {
-					echo '<input type=text name="" value="'.$info[$z].'"></br>';
+					echo '<input type=text name="" value="'.$info[$z].'"><br>';
 				}
 			}
 		}
