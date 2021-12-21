@@ -6,12 +6,12 @@
 		<script type = "text/javascript">
 			google.charts.load ('current', {'packages':['corechart']}); // laat libarys in
 			google.charts.setOnLoadCallback (loadData); // wacht tot geladen is, voordat de data erin gezet wordt
-
+		</script>
 	</head> 
 	<body>
 		
 		<?php
-		
+
 		      if(isset($_POST['button1'])) {
 				echo "This is Button1 that is selected";
 			}
