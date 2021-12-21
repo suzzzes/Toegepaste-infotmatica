@@ -15,16 +15,15 @@
 		      if(isset($_POST['Lamp'])) {
 				echo "This is Button1 that is selected";
 			}
-			if(isset($_POST['button2'])) {
-				echo "This is Button2 that is selected";
-			}
+
 		?>
 		  
 		<form method="post">
-			<input type="submit" name="Lamp" value="lamp"/>
-			  
-			<input type="submit" name="button2"
-					value="Button2"/>
+			<input type="submit" name="Lamp" value="Lamp"/>
+			<label class="switch">
+			<input type= "checkbox">
+			<span class= "slider round"></span>
+		</label>
 		</form>
 		
 
