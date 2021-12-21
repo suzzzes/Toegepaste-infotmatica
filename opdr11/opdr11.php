@@ -22,7 +22,7 @@
 		?>
 
 		<form method= "post">
-		<input type="submit" size="5" name="Lamp" value="iets"> 
+		<input type="submit" size="5" name="Lamp" value="iets"/> 
 		</form>
 
 
