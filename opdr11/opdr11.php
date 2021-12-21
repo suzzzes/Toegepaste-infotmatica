@@ -12,7 +12,7 @@
 		
 		<?php
 
-		      if(isset($_POST['lamp'])) {
+		      if(isset($_POST['Lamp'])) {
 				echo "This is Button1 that is selected";
 			}
 			if(isset($_POST['button2'])) {
