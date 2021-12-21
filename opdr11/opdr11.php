@@ -12,6 +12,7 @@
 	<body>
 
 	<?php
+	echo ("poep tot de max");
 		$Lamp = "iets";
 
 		if ($_SERVER['REQUEST_METHOD'] == "POST") {
