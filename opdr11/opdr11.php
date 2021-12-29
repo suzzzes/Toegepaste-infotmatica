@@ -168,7 +168,7 @@
 				<div class="col-12">
 					<form method="post">
 						<fieldset>
-							<legend>on/off status for machine: <?php echo $machine_id; ?></legend>
+							<legend>ESP en Lamp: <?php echo $machine_id; ?></legend>
 							<div class="form-group">
 								<div class="custom-control custom-switch">
 									<input type="checkbox" class="custom-control-input" id="customSwitch1"
